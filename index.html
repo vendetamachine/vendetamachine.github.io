@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <head>
@@ -16,28 +17,29 @@
 <body>
 
   <!-- Navbar (sit on top) -->
-  <!-- <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
-  </div> -->
+  <div class="w3-top">
+    <div class="w3-bar w3-card w3-animate-top w3-black" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right " href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button" style="font-family:'Montserrat', sans-serif">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="font-family:'Montserrat', sans-serif"><i
+          class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small" style="font-family:'Montserrat', sans-serif"><i
+          class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="font-family:'Montserrat', sans-serif"><i
+          class="fa fa-envelope"></i> CONTACT</a>
+    </div>
 
-  <!-- Navbar on small screens -->
-  <!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    </div>
   </div>
-</div> -->
 
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
@@ -50,39 +52,42 @@
   <section id="milestones">
     <br>
     <br>
-    <h2 class="w3-center main-title">VendETA</h3>
+    <div class="w3-content w3-container w3-padding-64" id="title">
+      <h3 class="w3-center section-headers main-title">VendETA</h3>
       <hr class="small">
-    <p class="w3-center" style="font-size: 14pt"><em>"If we tried to think of a good idea, we wouldn’t have been able
-        to
-        think of a good idea. You just have to find the solution for a problem in your own life."</em></p>
-    <p class="w3-center" style="font-size: 12pt"><em>-Brian Chesky, Co-founder of Airbnb</em></p>
-    <br>
+      <!-- <h2 class="w3-center main-title">VendETA</h3>
+      <hr class="small"> -->
+      <p class="w3-center" style="font-size: 14pt"><em>"If we tried to think of a good idea, we wouldn’t have been able
+          to
+          think of a good idea. You just have to find the solution for a problem in your own life."</em></p>
+      <p class="w3-center" style="font-size: 12pt"><em>-Brian Chesky, Co-founder of Airbnb</em></p>
+      <br>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="main-timeline8">
-            <div class="timeline">
-              <span class="timeline-icon"></span>
-              <span class="year">19 Oct 2020</span>
-              <div class="timeline-content">
-                <h3 class="title">Project description</h3>
-                <p class="description">Curious about what we do?</p>
-                <a href="#milestone1" class="btn first-milestone btn-outline-primary">Learn more</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-timeline8">
+              <div class="timeline">
+                <span class="timeline-icon"></span>
+                <span class="year">19 Oct 2020</span>
+                <div class="timeline-content">
+                  <h3 class="title">Project description</h3>
+                  <p class="description">Curious about what we do?</p>
+                  <a href="#problem" class="btn first-milestone btn-outline-primary">Learn more</a>
+                </div>
               </div>
-            </div>
-            <div class="timeline">
-              <span class="timeline-icon"></span>
-              <span class="year">02 Nov 2020</span>
-              <div class="timeline-content">
-                <h3 class="title">Validation 1</h3>
-                <p class="description">
-                  Curious about how we identified the problem?
-                </p>
+              <div class="timeline">
+                <span class="timeline-icon"></span>
+                <span class="year">02 Nov 2020</span>
+                <div class="timeline-content">
+                  <h3 class="title">Validation 1</h3>
+                  <p class="description">
+                    Curious about how we identified the problem?
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="timeline">
-              <!-- <span class="timeline-icon"></span>
+              <div class="timeline">
+                <!-- <span class="timeline-icon"></span>
                       <span class="year">2015</span>
                       <div class="timeline-content">
                           <h3 class="title">Web Desginer</h3>
@@ -90,8 +95,8 @@
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
                           </p>
                       </div> -->
-            </div>
-            <!-- <div class="timeline">
+              </div>
+              <!-- <div class="timeline">
                       <span class="timeline-icon"></span>
                       <span class="year">2014</span>
                       <div class="timeline-content">
@@ -101,143 +106,243 @@
                           </p>
                       </div>
                   </div> -->
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
-
-
-  <section id="milestone1">
-  <div class="w3-content w3-container w3-padding-64" id="problem">
-    <h3 class="w3-center section-headers">Problem</h3>
-    <hr class="small">
-    <p style="font-size: 15pt">Over the last decades, the vending machine industry has been saturated by the classic
-      approach (offering products such as snacks, coffee and refreshments), while the <b>concept</b> of selling
-      products
-      through <b>automated machines</b> remained mostly <b>unexplored</b>. </p>
-    <p style="font-size: 15pt">Furthermore, the <b>user experience</b> remained almost the same since the earliest
-      models of vending machines, being as simple as a quick overview of the products displayed, followed by a
-      decision
-      and a transaction, without any additional details, recommendations or an intent of using the service
-      <b>again</b>.
-    </p>
-  </div>
-
-
-
-  <div class="w3-content w3-container w3-padding-64" id="solution">
-    <h3 class="w3-center section-headers">Solution</h3>
-    <hr class="small">
-    <p style="font-size: 15pt"><b>VendETA</b> is a tool which can help vending machine business owners to build a
-      relationship with their customers, while making the selling process <b>quicker, easier and more accessible.</b>
-    </p>
-    <p style="font-size: 15pt">By displaying relevant information about the products and by asking the customers about
-      their experience and which products would they prefer to buy more often, <b>VendETA</b> aims to offer a
-      personalized approach to the vending machine industry. </p>
-    <p style="font-size: 15pt">Using smart vending machines and IoT technology, our goal is to diversify the product
-      range and user experience, in order for the vending machines to be used in a <b>different approach</b>. </p>
-    <p style="font-size: 15pt">The aim is to help Universities, Companies, Hospitals and even Restaurants distribute
-      specific products and build a direct relationship with their customers and partners (beside the classic
-      snack-approach of a traditional vending machine), while providing a contact-less approach in the acquisition
-      process. </p>
-  </div>
-
-
-
-  <div class="w3-content w3-container w3-padding-64" id="customer-segment">
-    <h3 class="w3-center section-headers">Customer segment</h3>
-    <hr class="small">
-    <p style="font-size: 15pt"><b>VendETA</b> can be used by retail businesses or vending machine owners to facilitate
-      the processes in order to efficiently handle their interactions with customers. Additionally, it can be used to
-      offer a more accessible alternative of supplying educational materials for students or teaching props for
-      teachers. </p>
-    <p style="font-size: 15pt">Another segment is related to customers interested in buying various products in a fast
-      and accessible way, at an <b>affordable price</b> and without concerns about expected delivery time or stock
-      availability. </p>
-  </div>
-
-  <div class="w3-content w3-container w3-padding-64" id="competition">
-    <h3 class="w3-center section-headers">Competition</h3>
-    <hr class="small">
-    <ul>
-      <li style="font-size: 15pt"><a href="https://www.vendit.co/" style="color: blue">Vend It</a></li>
-      <li style="font-size: 15pt"><a href="https://www.skimo.io/" style="color: blue">Skimo</a></li>
-      <li style="font-size: 15pt"><a href="https://www.silkron.com/" style="color: blue">Silkron</a></li>
-      <li style="font-size: 15pt"><a href="https://www.vendsoft.com/" style="color: blue">Vendsoft </a></li>
-      <li style="font-size: 15pt"><a href="https://www.coges.eu/producto/pay4vend/" style="color: blue">Pay4Vend</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="w3-content w3-container w3-padding-64" id="advantages">
-    <h3 class="w3-center section-headers">Advantage over competition</h3>
-    <hr class="small">
-    <ul>
-      <li style="font-size: 17pt">Undeveloped market in most European countries (including Romania) </li>
-      <li style="font-size: 17pt">Educational purposes for encouraging research among students and teachers</li>
-      <li style="font-size: 17pt">More flexibility regarding the acquisition of various components in a short amount
-        of
-        time</li>
-      <li style="font-size: 17pt">Time efficiency: Avoid long walks to the provider, fulfill daily needs at the
-        nearest
-        machine. </li>
-      <li style="font-size: 17pt">All the essential information about the products can be found in your pocket</li>
-      <li style="font-size: 17pt">Providing accessibility for tehnical universities, regarding practical projects</li>
-      <li style="font-size: 17pt">Quick access to information with the use of QR codes</li>
-      <li style="font-size: 17pt">Further developments can lead to customized stocks of products</li>
-    </ul>
-  </div>
-
-  <div class="w3-content w3-container w3-padding-64" id="key-metrics">
-    <h3 class="w3-center section-headers">Key metrics</h3>
-    <hr class="small">
-    <ul>
-      <li style="font-size: 17pt">User engagement by downloading the app and buying products </li>
-      <li style="font-size: 17pt">User retention </li>
-      <li style="font-size: 17pt">Relevancy of new features</li>
-      <li style="font-size: 17pt">Signed contracts with institutions</li>
-      <li style="font-size: 17pt">Number of businesses interested in using the tool</li>
-      <li style="font-size: 17pt">Increase in the number of products sold</li>
-    </ul>
-  </div>
-
-  <div class="w3-content w3-container w3-padding-64" id="cost-structure">
-    <h3 class="w3-center section-headers">Cost structure</h3>
-    <hr class="small">
-    <p style="font-size: 15pt">In this section, a high-level overview of the costs will be provided, regarding the
-      usage
-      of the VendETA tool. These are of fixed-type nature and can be observed below:</p>
-    <ul>
-      <li style="font-size: 17pt">Application and vending machine maintenance</li>
-      <li style="font-size: 17pt">Software licensing</li>
-      <li style="font-size: 17pt">Cloud usage</li>
-      <li style="font-size: 17pt">Bank charges</li>
-      <li style="font-size: 17pt">Marketing and advertisment</li>
-    </ul>
-  </div>
-
-  <div class="w3-content w3-container w3-padding-64" id="revenue-streams">
-    <h3 class="w3-center section-headers">Revenue streams</h3>
-    <hr class="small">
-    <ul>
-      <li style="font-size: 17pt">Selling different products using vending machines, which will be found in key
-        locations</li>
-      <li style="font-size: 17pt">Different sponsorships/partnerships with other businesses that produce these
-        products
-      </li>
-    </ul>
-  </div>
   </section>
 
-      <section id="team">
-      <h3 class="w3-center section-headers">TEAM</h3>
+
+
+  <section id="problem">
+    <div class="w3-content w3-container w3-padding-64" id="problem">
+      <h2 class="w3-center section-headers">Problem</h2>
+      <hr class="small">
+      <div class="row">
+        <div class="col">
+          <p style="font-size: 12pt">Over the last decades, the vending machine industry has been saturated by the
+            classic
+            approach (offering products such as snacks, coffee and refreshments), while the <b>concept</b> of selling
+            products
+            through <b>automated machines</b> remained mostly <b>unexplored</b>. </p>
+          <p style="font-size: 12pt">Furthermore, the <b>user experience</b> remained almost the same since the earliest
+            models of vending machines, being as simple as a quick overview of the products displayed, followed by a
+            decision
+            and a transaction, without any additional details, recommendations or an intent of using the service
+            <b>again</b>.
+          </p>
+        </div>
+        <div class="col">
+          <img src="26294.jpg" alt="" style="width:100%">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="solution">
+    <div class="w3-content w3-container w3-padding-64" id="solution">
+      <h2 class="w3-center section-headers">Solution</h2>
+      <hr class="small">
+      <div class="row">
+        <div class="col">
+          <img src="assets/vendingmachine.png" alt="" style="width:100%">
+        </div>
+        <div class="col">
+          <p style="font-size: 12pt"><b>VendETA</b> is a tool which can help vending machine business owners to build a
+            relationship with their customers, while making the selling process <b>quicker, easier and more
+              accessible.</b>
+          </p>
+          <p style="font-size: 12pt">By displaying relevant information about the products and by asking the customers
+            about
+            their experience and which products would they prefer to buy more often, <b>VendETA</b> aims to offer a
+            personalized approach to the vending machine industry. </p>
+          <p style="font-size: 12pt">Using smart vending machines and IoT technology, our goal is to diversify the
+            product
+            range and user experience, in order for the vending machines to be used in a <b>different approach</b>. </p>
+        </div>
+        <br>
+        <p style="font-size: 12pt">The aim is to help Universities, Companies, Hospitals and even Restaurants
+          distribute
+          specific products and build a direct relationship with their customers and partners (beside the classic
+          snack-approach of a traditional vending machine), while providing a contact-less approach in the acquisition
+          process. </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="customer-segment">
+    <div class="w3-content w3-container w3-padding-64" id="customer-segment">
+      <h2 class="w3-center section-headers">Customer segment</h3>
+        <hr class="small">
+        <p style="font-size: 12pt"><b>VendETA</b> can be used by retail businesses or vending machine owners to
+          facilitate
+          the processes in order to efficiently handle their interactions with customers. Additionally, it can be used
+          to
+          offer a more accessible alternative of supplying educational materials for students or teaching props for
+          teachers. </p>
+        <p style="font-size: 12pt">Another segment is related to customers interested in buying various products in a
+          fast
+          and accessible way, at an <b>affordable price</b> and without concerns about expected delivery time or stock
+          availability. </p>
+    </div>
+  </section>
+
+  <section id="competition">
+    <div class="w3-content w3-container w3-padding-64" id="competition">
+      <h2 class="w3-center section-headers">Competition</h3>
+        <hr class="small">
+
+        <div class="row">
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="assets/vendit.png" style="width: 300px;height: 200px;">
+                </div>
+                <div class="flip-card-back">
+                  <a href="https://www.vendit.co/" class="center card-links">Visit them</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="assets/skimo.png" style="width: 300px;height: 200px;">
+                </div>
+                <div class="flip-card-back">
+                  <a href="https://www.skimo.io/" class="center card-links">Visit them</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="assets/silkron.png" style="width: 300px;height: 200px;">
+                </div>
+                <div class="flip-card-back">
+                  <a href="https://www.silkron.com/" class="center card-links">Visit them</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col" style="margin-left:20%">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="assets/vendsoft.png" style="width: 300px;height: 200px;">
+                </div>
+                <div class="flip-card-back">
+                  <a href="https://www.vendsoft.com/" class="center card-links">Visit them</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="assets/pay4vend.png" style="width: 300px;height: 200px;">
+                </div>
+                <div class="flip-card-back">
+                  <a href="https://www.coges.eu/producto/pay4vend/" class="center card-links">Visit them</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="advantages">
+    <div class="w3-content w3-container w3-padding-64" id="advantages">
+      <h2 class="w3-center section-headers">Advantage over competition</h3>
+        <hr class="small">
+        <ul>
+          <li style="font-size: 12pt">Undeveloped market in most European countries (including Romania) </li>
+          <li style="font-size: 12pt">Educational purposes for encouraging research among students and teachers</li>
+          <li style="font-size: 12pt">More flexibility regarding the acquisition of various components in a short amount
+            of
+            time</li>
+          <li style="font-size: 12pt">Time efficiency: Avoid long walks to the provider, fulfill daily needs at the
+            nearest
+            machine. </li>
+          <li style="font-size: 12pt">All the essential information about the products can be found in your pocket</li>
+          <li style="font-size: 12pt">Providing accessibility for tehnical universities, regarding practical projects
+          </li>
+          <li style="font-size: 12pt">Quick access to information with the use of QR codes</li>
+          <li style="font-size: 12pt">Further developments can lead to customized stocks of products</li>
+        </ul>
+    </div>
+  </section>
+
+  <section id="key-metrics">
+    <div class="w3-content w3-container w3-padding-64" id="key-metrics">
+      <h2 class="w3-center section-headers">Key metrics</h3>
+        <hr class="small">
+        <ul>
+          <li style="font-size: 12pt">User engagement by downloading the app and buying products </li>
+          <li style="font-size: 12pt">User retention </li>
+          <li style="font-size: 12pt">Relevancy of new features</li>
+          <li style="font-size: 12pt">Signed contracts with institutions</li>
+          <li style="font-size: 12pt">Number of businesses interested in using the tool</li>
+          <li style="font-size: 12pt">Increase in the number of products sold</li>
+        </ul>
+    </div>
+  </section>
+
+  <section id="cost-structure">
+    <div class="w3-content w3-container w3-padding-64" id="cost-structure">
+      <h2 class="w3-center section-headers">Cost structure</h3>
+        <hr class="small">
+        <p style="font-size: 12pt">In this section, a high-level overview of the costs will be provided, regarding the
+          usage
+          of the VendETA tool. These are of fixed-type nature and can be observed below:</p>
+        <ul>
+          <li style="font-size: 12pt">Application and vending machine maintenance</li>
+          <li style="font-size: 12pt">Software licensing</li>
+          <li style="font-size: 12pt">Cloud usage</li>
+          <li style="font-size: 12pt">Bank charges</li>
+          <li style="font-size: 12pt">Marketing and advertisment</li>
+        </ul>
+    </div>
+  </section>
+
+  <section id="revenue-streams">
+    <div class="w3-content w3-container w3-padding-64" id="revenue-streams">
+      <h2 class="w3-center section-headers">Revenue streams</h3>
+        <hr class="small">
+        <ul>
+          <li style="font-size: 12pt">Selling different products using vending machines, which will be found in key
+            locations</li>
+          <li style="font-size: 12pt">Different sponsorships/partnerships with other businesses that produce these
+            products
+          </li>
+        </ul>
+    </div>
+  </section>
+
+
+  <section id="team">
+    <h2 class="w3-center section-headers">TEAM</h3>
       <hr class="small">
       <div class="w3-content w3-container w3-padding-64">
-      <p class="w3-center" style="font-size: 14pt">We are a team of passionate developers , with background in Computer
-        Science and Electronics, ready to discover the applied science beyond the art of entrepreneurship. We hope our
-        technical experience could be the starting point in order to create and promote innovative ideas based on our
-        product.</p>
+        <p class="w3-center" style="font-size: 14pt">We are a team of passionate developers , with background in
+          Computer
+          Science and Electronics, ready to discover the applied science beyond the art of entrepreneurship. We hope our
+          technical experience could be the starting point in order to create and promote innovative ideas based on our
+          product.</p>
         <div class="row text-center">
 
           <!-- Team item -->
@@ -320,8 +425,8 @@
         </div>
 
       </div>
-    </div>
-  </div>
+      </div>
+      </div>
   </section>
 
 
@@ -452,11 +557,12 @@
     window.onscroll = function () { myFunction() };
     function myFunction() {
       var navbar = document.getElementById("myNavbar");
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-      } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-      }
+      // if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      //   navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+      // } else {
+      //   navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      // }
+      navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
     }
 
     // Used to toggle the menu on small screens when clicking on the menu button

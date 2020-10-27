@@ -1,57 +1,35 @@
-body,h1,h2,h3,h4,h5,h6 {font-family:"Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+body,h1,h2,h3,h4,h5,h6 {font-family:'Montserrat', sans-serif;
 }
 body, html {
-  height: 100%;
+  height: 98%;
   color: #383838;
   line-height: 1.8;
   scroll-behavior: smooth;
-  background: #ebebeb;
 }
 
-hr {
-  border-color: #0476d0;
-}
 
 .main-title {
   font-size: 3rem;
   font-weight: bold;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color:#0476d0;
 }
 
 .section-headers {
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color:#0476d0;
   text-transform: uppercase;
-}
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('http://www.utility.rentals/wp-content/uploads/2014/05/VendingMachines.jpg');
-  height: 100%;
+  height:100%;
+  background-image: url('assets/9098.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
 }
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
-}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
@@ -158,8 +136,75 @@ background-size: cover;
   box-shadow: none !important;
 }
 
-/* SECTIONS */
-#milestones, #team  {
-  background-color: #f7f9f8 !important;
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+
+/* COMPETITION */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.card-links {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:black;
+  text-decoration: none;
+
+}
+
+
 
