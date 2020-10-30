@@ -121,15 +121,26 @@ background-size: cover;
 .main-timeline8 .timeline-content{margin:0 35px 0 45px}
 }
 
-.first-milestone, .btn-outline-primary{
+.first-milestone{
   border: #c97461;
   color: #c97461;
 }
 
-.first-milestone:hover, .first-milestone:active, .first-milestone:visited , .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+.first-milestone:hover, .first-milestone:active, .first-milestone:visited  {
   background-color: #c97461;
   outline: #c97461;
 }
+
+.second-milestone{
+  border: #7eda99;
+  color:#7eda99;
+}
+
+.second-milestone:hover, .second-milestone:active, .second-milestone:visited {
+  background-color:#7eda99;
+  outline: #7eda99;
+}
+
 
 .btn-outline-primary:focus {
   outline: none !important;
@@ -204,6 +215,15 @@ background-size: cover;
   color:black;
   text-decoration: none;
 
+}
+
+.milestone-icon {
+  height: 4em;
+  width: auto;
+}
+
+.puzzle-image {
+  height: 15em;
 }
 
 
