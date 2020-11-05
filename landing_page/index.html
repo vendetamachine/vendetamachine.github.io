@@ -19,10 +19,14 @@ body, html {
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
+  /*-webkit-transform: translateZ(0);*/
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /* First image (Logo. Full height) */
@@ -49,7 +53,7 @@ body, html {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
     min-height: 400px;
   }
 }
@@ -81,11 +85,11 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-opacity-min" id="home">
-  	<div class="container" style="padding-top: 10vh;">
-  		<div class="row" align="center">
+<div class="bgimg-1 w3-opacity-min d-flex align-items-center" id="home">
+  	<div class="container">
+  		<div class="row" align="center" style="margin-top: auto; margin-bottom: auto;">
   			<div class="col text-center">
-  				<h1 data-aos="zoom-in" data-aos-duration="1000"class="text-center display-3" style="color: #000000; font-size: 5rem"> VendETA </h1>
+  				<h1 data-aos="zoom-in" data-aos-duration="1000"class="text-center display-3" style="color: #000000; font-size: 5vw"> VendETA </h1>
   			</div>
   		</div>
   		<div class="row">
