@@ -42,8 +42,6 @@ body, html {
   }
 }
 
-
-
 .box-shadow{
   background: #ccc;
   box-shadow: 4px 3px 8px 1px #969696;
@@ -224,6 +222,15 @@ background-size: cover;
 
 .puzzle-image {
   height: 15em;
+}
+
+.wireframe-column {
+  height: 600px;
+}
+
+.wireframe-image {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
