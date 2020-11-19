@@ -37,7 +37,7 @@
 
 html { font-size: 1rem; }
 
-@media (min-width: 375px) {
+@media (min-width: 360px) {
     html { font-size: 0.5rem; }
 }
 
@@ -142,9 +142,12 @@ body, html {
   			</div>
   		</div>
   		<div class="container">
-  			<img class="mx-auto d-block"src="utils/vending_machine_mini_logo.png" class="rounded mx-auto d-block" style="width:15rem">
+  			<img class="mx-auto d-block" src="utils/vending_machine_mini_logo.png" class="rounded mx-auto d-block" style="width:15rem;">
   		</div>
+
+		    <img src="utils/black_down_arrow.svg" class="img-responsive mx-auto d-block" style="width:10rem; padding-top: 10rem; fill: black">    
   	</div>
+
 </div>
 
 <div id="services" style="background-image: url('utils/caramizi.jpg'); padding-top: 5rem; padding-bottom: 5rem">
@@ -314,7 +317,7 @@ body, html {
 			</div>
 
 			<div class="col">
-				<form>
+				<form action="https://formspree.io/f/moqplrya" method="POST">
 				  <div class="form-group">
 				    <label for="firstNameid">First Name</label>
 				    <input type="text" class="form-control" id="firstNameid" style="border-color: black">
@@ -325,7 +328,7 @@ body, html {
 				  </div>
 				  <div class="form-group">
 				    <label for="emailId">Email</label>
-				    <input type="text" class="form-control" id="emailId" style="border-color: black">
+				    <input type="text" class="form-control" id="emailId" name="_replyto" style="border-color: black">
 				  </div>
 				  <div class="form-group">
 				    <label for="subjectId">Subject</label>
@@ -334,7 +337,7 @@ body, html {
 
 				  <div class="form-group">
 				    <label for="messageId">Message</label>
-				    <textarea class="form-control" id="messageId" rows="3" style="resize: none; border-color: black"></textarea>
+				    <textarea class="form-control" id="messageId" rows="3" name="message" style="resize: none; border-color: black"></textarea>
 				  </div>
 				  <button type="submit" class="btn btn-dark">Send</button>
 				</form>
