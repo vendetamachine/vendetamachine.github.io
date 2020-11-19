@@ -69,8 +69,8 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#services" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SERVICES</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> ABOUT</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -79,8 +79,8 @@ body, html {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#services" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICES</a>
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -100,7 +100,7 @@ body, html {
   	</div>
 </div>
 
-<div style="background-image: url('utils/caramizi.jpg'); padding-top: 5vw; padding-bottom: 5vw">
+<div id="services" style="background-image: url('utils/caramizi.jpg'); padding-top: 5vw; padding-bottom: 5vw">
 <div class="container" style="color: black; background-color: white; padding-top: 10px; padding-right: 100px; padding-left: 100px">
 	<h1 class="text-center display-3" style="padding-top: 50px;">
 		Services
@@ -196,45 +196,29 @@ body, html {
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
+  <div id="about" class="w3-display-middle">
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
-<!-- <div style="background-color: #f2f2f2; padding-top: 5vw; padding-bottom: 5vw">
-<div class="w3-content w3-container w3-padding-64" id="contact" style="background-color: white;	">
-  <h3 class="w3-center">CONTACT US</h3>
-  <p class="w3-center"><em>We'd love your feedback!</em></p>
+<div style="background-color: #f2f2f2; padding-top: 5vh; padding-bottom: 5vh; color: black">
+	<div class="container" style="background-color: white; width:40%; padding-top: 4vw;">
+		<h1 class="text-center display-3" style="font-size: 1.9vw">ABOUT US</h1>
+		<hr style="border: 10px; background-color: black; height: 5px; border-radius: 10px; width: 7%; margin: auto;">
 
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="utils/contact.png" class="w3-image w3-round" style="width:100%">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bucharest, RO<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: vendetamachine@gmail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
-    </div>
+
+		<div class="container text-center" style="padding-left: 5vw; padding-right: 5vw; padding-top: 5vh; padding-bottom: 5vh">
+			<p style="font-size: 2vh">
+				Here we will put a text describing what we aim to achieve, and provide users with a beautfiul story. I am writing as many words as I can so that I will be able to see it on the actual site and to modify accordingly, so that I will see something beautiful. I just drank my coffe and I am not sleepy anymore.
+			</p>
+		</div>
+	</div>
+
+</div>
+
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div id="contact" class="w3-display-middle">
   </div>
 </div>
-</div> -->
 
 <div style="background-color: #f2f2f2; padding-top: 5vw; padding-bottom: 5vw; color: black">
 	<img src="utils/vending_machine_mini_logo.png" class="rounded mx-auto d-block" style="width:12%; padding-bottom: 2vh;">
