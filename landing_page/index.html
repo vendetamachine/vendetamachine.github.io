@@ -155,7 +155,8 @@
 			<a href="#home" class="w3-bar-item w3-button">HOME</a>
 			<a href="#services" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SERVICES</a>
 			<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> ABOUT</a>
-			<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+			<a href="#newsletter" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> NEWSLETTER</a>
+			<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-phone"></i> CONTACT</a>
 			<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
 				<i class="fa fa-search"></i>
 			</a>
@@ -165,6 +166,7 @@
 		<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
 			<a href="#services" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICES</a>
 			<a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+			<a href="#newsletter" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWSLETTER</a>
 			<a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
 			<a href="#" class="w3-bar-item w3-button">SEARCH</a>
 		</div>
@@ -316,10 +318,10 @@
 			<div class="container text-center"
 				style="padding-left: 5vw; padding-right: 5vw; padding-top: 5vh; padding-bottom: 5vh">
 				<p style="font-size: 1.5rem">
-					Here we will put a text describing what we aim to achieve, and provide users with a beautfiul story.
-					I am writing as many words as I can so that I will be able to see it on the actual site and to
-					modify accordingly, so that I will see something beautiful. I just drank my coffe and I am not
-					sleepy anymore.
+					VendETA aims to help vending machine business owners to build a relationship with their
+					customers, while making the selling process <b>quicker, easier and more accessible.</b>
+					Using smart vending machines and IoT technology, our goal is to diversify the product range and user
+					experience, in order for the vending machines to be used in a <b>different approach.</b>
 				</p>
 			</div>
 		</div>
@@ -512,42 +514,42 @@
 					setStatus("<span style='color:red'>There was a problem submitting your request :( </span>");
 				}
 			},
-				action: "https://formspree.io/xbjpkvgp",
-					buttonImg: "<i class='far fa-envelope' style='font-size:32px'/>",
-						title: "Want to find out more fresh news?",
-							description: "<br>Subscribe to our <b>newsletter</b> and be the first one to know!",
-								fields: [
-									{
-										type: "text",
-										label: "Name:",
-										name: "message"
-										, required: true,
-										placeholder: "What's your name?",
-									},
-									{
-										type: "email",
-										label: "Email:",
-										name: "email",
-										required: true,
-										placeholder: "What's your email address?"
-									},
-									{ type: "submit" }
-								],
-									styles: {
-					fontFamily: "Montserrat",
-						title: {
-						background: "#FFE633",
+			action: "https://formspree.io/xbjpkvgp",
+			buttonImg: "<i class='far fa-envelope' style='font-size:32px'/>",
+			title: "Want to find out more fresh news?",
+			description: "<br>Subscribe to our <b>newsletter</b> and be the first one to know!",
+			fields: [
+				{
+					type: "text",
+					label: "Name:",
+					name: "message"
+					, required: true,
+					placeholder: "What's your name?",
 				},
-					description: {
-						background: "white",
-							color: "black"
-					},
-					button: {
-						background: "#FFE633",
+				{
+					type: "email",
+					label: "Email:",
+					name: "email",
+					required: true,
+					placeholder: "What's your email address?"
+				},
+				{ type: "submit" }
+			],
+			styles: {
+				fontFamily: "Montserrat",
+				title: {
+					background: "#FFE633",
+				},
+				description: {
+					background: "white",
+					color: "black"
+				},
+				button: {
+					background: "#FFE633",
 				}
-				},
-				initiallyVisible: true
-			});
+			},
+			initiallyVisible: true
+		});
 	</script>
 </body>
 
