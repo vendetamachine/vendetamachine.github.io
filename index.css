@@ -108,6 +108,12 @@ background-size: cover;
 .main-timeline8 .timeline:nth-child(4n) .timeline-icon{border-color:#f98d9c}
 .main-timeline8 .timeline:nth-child(4n) .year{background:#f98d9c}
 .main-timeline8 .timeline:nth-child(4n) .year:before{border-top-color:#f2aab3}
+.main-timeline8 .timeline:nth-child(5n) .timeline-icon{border-color:#8de9f9}
+.main-timeline8 .timeline:nth-child(5n) .year{background:#8de9f9}
+.main-timeline8 .timeline:nth-child(5n) .year:before{border-top-color:#a5f0fd}
+.main-timeline8 .timeline:nth-child(6n) .timeline-icon{border-color:#f9e98d}
+.main-timeline8 .timeline:nth-child(6n) .year{background:#f9e98d}
+.main-timeline8 .timeline:nth-child(6n) .year:before{border-top-color:#f8eba1}
 @media only screen and (max-width:767px){.main-timeline8{overflow:visible}
 .main-timeline8:before{top:0;left:0}
 .main-timeline8 .timeline:nth-child(2),.main-timeline8 .timeline:nth-child(even),.main-timeline8 .timeline:nth-child(odd){margin:0}
